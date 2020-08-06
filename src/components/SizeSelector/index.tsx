@@ -13,9 +13,6 @@ export enum pizzasSizes {
 const SizeSelector = (): JSX.Element => {
     const {data, setData} = useContext<IContextProps>(AppContext);
     console.log(data, setData);
-    const handleClick = (key: any): void => {
-        console.log(pizzasSizes[key]);
-    }
 
     return (
         <div className='sizeSelector'>
