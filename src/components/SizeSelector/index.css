@@ -1,0 +1,45 @@
+
+.sizeSelector{
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza{
+    display: flex;
+    justify-content: center;
+}
+
+.img-S {
+    height: 30%;
+    width: 30%;
+    justify-items: center;
+}
+
+.img-M{
+    height: 40%;
+    width: 40%;
+}
+
+.img-L{
+    height: 50%;
+    width: 50%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+.portions{
+    text-align: center;
+    color:azure;
+    font-size: larger;
+}
+
